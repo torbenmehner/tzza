@@ -1,0 +1,26 @@
+\documentclass{beamer}
+\usetheme[numbering=fraction, progressbar=frametitle]{metropolis}
+
+\title{A minimal example}
+\date{\today}
+\author{Matthias Vogelgesang}
+\institute{Centre for Modern Beamer Themes}
+\begin{document}
+\maketitle
+
+\begin{frame}{Inhaltsverzeichnis}
+	\tableofcontents[sectionstyle=show,subsectionstyle=show]
+\end{frame}
+
+\section{Nahe Zukunft}
+\begin{frame}{First Frame}
+	Hello, world!
+\end{frame}
+
+\section{Ferne Zukunft}
+\subsection{Erster Unterpunkt}
+\begin{frame}{\insertsubsection}
+	Goodbye, world!
+\end{frame}
+
+\end{document}
