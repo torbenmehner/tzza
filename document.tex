@@ -85,6 +85,12 @@
 		
 		Heute - 2024: \\
 		\textbf{ISS} \\
+		 \note<1>{
+			 ISS:
+			 \begin{itemize}
+			 	\item Deutschland hat die finanziellen Mittel bereitgestellt
+			 \end{itemize}
+		 }
 		
 		\pause
 		
@@ -140,6 +146,8 @@
 			\begin{itemize}
 				\item Preis pro kg bei 11to: 8000 Euro (4 Booster)
 				\item Preis pro kg bei 4,5to: 16700 Euro (2Booster)
+				\item Falcon 9 pro kg bei 8,5to: 7500 Euro
+				\item Falcon Heavy pro kg bei 26,7to: 3400 Euro
 			\end{itemize}
 			}
 				
@@ -157,22 +165,10 @@
 \begin{frame}{\insertsection: \insertsubsection}
 	\begin{minipage}{.45\textwidth}
 		
-		Seit Heute: \\
-		\textbf{Falcon 9 und Falcon Heavy} \\
-		
-		\note<1>{
-			\begin{itemize}
-				\item Falcon 9 pro kg bei 8,5to: 7500 Euro
-				\item Falcon Heavy pro kg bei 26,7to: 3400 Euro
-			\end{itemize}
-		}
-		
-		\pause
-		
 		Ab 2022: \\
 		\textbf{Making Life Multiplanetary} \\
 		
-		\note<2>{
+		\note<1>{
 			\begin{itemize}
 				\item 2022: unbemannte Versorgungsmission
 				\item 2024: erste bemannte Mission
@@ -184,7 +180,7 @@
 		Ab 2022: \\
 		\textbf{BFR | Earth to Earth} \\
 		
-		\note<3>{
+		\note<2>{
 			\begin{itemize}
 				\item BFR: Rakete der Marsmission
 				\item Slogan: Um die halbe Welt in weniger als 30 Minuten
@@ -193,21 +189,13 @@
 		
 		
 	\end{minipage} \quad
-	\begin{minipage}{.5\textwidth}
-		\only<1>{\begin{center}
-			\includegraphics[height=.93\linewidth]{falcon9} \hspace{24pt}
-			\includegraphics[height=\linewidth]{falconheavy}
-		\end{center}		
-		
-		{\tiny Falcon 9 und Falcon Heavy,
-			\\ Quelle: spacex.com}}
-	
-		\only<2>{\includegraphics[width=\linewidth]{spacexmars}
+	\begin{minipage}{.5\textwidth}	
+		\only<1>{\includegraphics[width=\linewidth]{spacexmars}
 			
 			{\tiny Missions to Mars,
 				\\ Quelle: spacex.com}}
 		
-		\only<3>{\includegraphics[width=\linewidth]{earthtoearth}
+		\only<2>{\includegraphics[width=\linewidth]{earthtoearth}
 			
 			{\tiny BFR: Earth to Earth,
 				\\ Quelle: spacex.com}}
@@ -216,13 +204,166 @@
 
 \subsection{CNSA}
 \begin{frame}{\insertsection: \insertsubsection}
-	Goodbye, world!
+\begin{minipage}{.45\textwidth}
+	
+	2025 - 2060: \\
+	\textbf{Space based solar power} \\
+	
+	\note<1>{
+		\begin{itemize}
+			\item China hat 2050 ein Energiedefizit von 10\%
+			\item 55\% - 65\% des Sonnenlichts werden in der Atmosphäre in Wärme umgewandelt
+			\item Umwandlung in Mikrowellen vermeidet das Problem
+		\end{itemize}
+	}
+	
+	
+\end{minipage} \quad
+\begin{minipage}{.5\textwidth}	
+	\includegraphics[width=\linewidth]{cnsa}
+		
+	{\tiny CNSA Logo,
+		\\ Quelle: space.com}
+\end{minipage}
 \end{frame}
 
 \section{Ferne Zukunft}
-\subsection{Erster Unterpunkt}
+\subsection{Antriebe der Zukunft}
 \begin{frame}{\insertsection: \insertsubsection}
-	Goodbye, world!
+	\begin{minipage}{.45\textwidth}
+		
+		\textbf{Vergleich: Spezifischer Impuls}
+		\only<1>{
+			\begin{equation*}
+			\Delta v = v_{exh} \cdot \ln\left(\frac{M_0}{M_1}\right)
+			\end{equation*}
+		}
+		
+		\vspace{12pt}
+		
+		\note<1>{
+			Spezifischer Impuls			
+			\begin{itemize}
+				\item Abgasgeschwindigkeit
+				\item Maß für Effizienz eines Antriebs
+			\end{itemize}
+		}
+	
+	\end{minipage} \quad
+	\begin{minipage}{.5\textwidth}
+	\begin{center}
+		\includegraphics[width=.7\linewidth]{mainengine}
+	\end{center}	
+	
+	{\tiny Space Shuttle Main Engine
+		\\ Quelle: nasa.gov}
+	\end{minipage}
+\end{frame}
+	
+\begin{frame}{\insertsection: \insertsubsection}
+	\begin{minipage}{.45\textwidth}	
+		\textbf{Electro Dynamic Tethering}
+		
+		\vspace{12pt}
+		
+		\note<1>{
+			Ort			
+			\begin{itemize}
+				\item Tether: Leine
+				\item Nutzt Energie und Erdmagnetfeld als Antrieb
+				\item Sehr Effizient
+				\item Wenig Schub
+			\end{itemize}
+		}
+	
+		\pause
+		
+		\textbf{Ionen Antrieb}
+		
+		\note<2>{
+			Größe
+			\begin{itemize}
+				\item Hall-Effect-Thrusters (HET): Nutzt Magnet um Xenon-Ionen zu beschleunigen, Ionisierung durch Anode
+				\item Variable Specific Impulse Magnetoplasma Rocket (VASIMR): Nutzt Radiowellen zum ionisieren und erhitzen
+			\end{itemize}
+		}
+		
+	\end{minipage} \quad
+	\begin{minipage}{.5\textwidth}	
+		\only<1>{\includegraphics[width=\linewidth]{spacetether}
+		
+		{\tiny STS-75 Onboard View,
+			\\ Quelle: nasa.gov}}
+		
+		\only<2>{\includegraphics[width=\linewidth]{ionengine}
+			
+		{\tiny 6 kW Hall thruster,
+			\\ Quelle: jpt.nasa.gov}}
+	\end{minipage}
+\end{frame}
+
+\subsection{Weltraumkolonien}
+\begin{frame}{\insertsection: \insertsubsection}
+\begin{minipage}{.45\textwidth}
+	
+	\textbf{Ursache}
+	\only<1>{
+	\begin{itemize}
+		\item Religion
+		\item Geld
+		\item Ressourcen
+	\end{itemize}
+	}
+
+	\vspace{12pt}
+	
+	\note<1>{
+		Ursache			
+		\begin{itemize}
+			\item Religion
+			\item Geld
+			\item Ressourcen (Platz, Rohstoffe)
+		\end{itemize}
+	}
+
+	\textbf{Ort}
+	\only<2>{
+		\begin{itemize}
+			\item Planet
+			\item Asteroid
+			\item Struktur
+		\end{itemize}
+	}
+
+	\vspace{12pt}
+	
+	\note<2>{
+		Ort			
+		\begin{itemize}
+			\item Planet
+			\item Asteroid (kann sogar verlegt werden)
+			\item Selbstgebaute Struktur (z.B. Todesstern aus Star Wars, auch nur vorrübergehend vgl. Interstellar)
+		\end{itemize}
+	}
+
+	\textbf{Größe}
+	
+	\note<3>{
+		Größe
+		\begin{itemize}
+			\item Abhängig von Entfernung zur Erde bzw. zur nächsten großen Kolonie
+			\item Bestimmtes Grundpersonal muss vorhanden sein: Medizin, Feuerwehr, Polizei, Anwälte, Richter, Verwaltungsapparat
+			\item Erdnah (schnelle Kommunikation): mind. 100 Menschen, erdfern mind 1000 Menschen
+		\end{itemize}
+	}
+	
+\end{minipage} \quad
+\begin{minipage}{.5\textwidth}	
+	\includegraphics[width=\linewidth]{cooper_station}
+	
+	{\tiny "Cooper Station",
+		\\ Quelle: Interstellar, Warner Bros. Pictures}
+\end{minipage}
 \end{frame}
 
 \end{document}
