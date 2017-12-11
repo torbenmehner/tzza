@@ -7,6 +7,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage[ngerman]{babel}
+\usepackage{datetime}
 
 \title{Zukunft der Raumfahrt}
 \date{\today}
@@ -216,7 +218,7 @@
 			\item Umwandlung in Mikrowellen vermeidet das Problem
 		\end{itemize}
 	}
-	
+
 	
 \end{minipage} \quad
 \begin{minipage}{.5\textwidth}	
@@ -226,39 +228,116 @@
 		\\ Quelle: space.com}
 \end{minipage}
 \end{frame}
-
-\section{Ferne Zukunft}
-\subsection{Antriebe der Zukunft}
+\subsection{Satelliten-Entwicklung}
 \begin{frame}{\insertsection: \insertsubsection}
 	\begin{minipage}{.45\textwidth}
 		
-		\textbf{Vergleich: Spezifischer Impuls}
-		\only<1>{
-			\begin{equation*}
-			\Delta v = v_{exh} \cdot \ln\left(\frac{M_0}{M_1}\right)
-			\end{equation*}
+		\textbf{GNSS}
+		\vspace{12pt}
+		\only<1,2>{
+		\begin{itemize}
+			\item GPS \& GLONASS
+			\item Galileo \& Beidou
+		\end{itemize}
+		}
+		\vspace{12pt}
+		\pause
+		\pause
+		\textbf{\\Erdbeobachtung}
+		\vspace{12pt}
+		\only<4,3>{
+		\begin{itemize}
+			\item Terrain Kartierung
+		
+			\item Optische Beobachtung
+		\end{itemize}
+		}
+		\vspace{12pt}
+		\pause
+		\pause
+		\textbf{\\Andere Satelliten}
+		\vspace{12pt}
+		\only<4>{
+		\begin{itemize}
+			\item Satelliten-Internet
+			\item Fernsehen etc.
+		\end{itemize}
 		}
 		
-		\vspace{12pt}
 		
 		\note<1>{
-			Spezifischer Impuls			
+			GPS GLONASS		
 			\begin{itemize}
-				\item Abgasgeschwindigkeit
-				\item Maß für Effizienz eines Antriebs
+				\item GNSS Begriff
+				\item GLONASS Entwicklung
+				\item GPS neue Daten
+				\item Galileo praktisch einsatzbereit
+				\item bis 2020 online mit 30 Satelliten
+				\item Beidou seit 2012 lokal China
+				\item Bis 2020 35 Satelliten
+			\end{itemize}
+		}
+		\note<2>{
+			Galileo Beidou	
+			\begin{itemize}
+				\item Galileo praktisch einsatzbereit
+				\item bis 2020 online mit 30 Satelliten
+				\item Beidou seit 2012 lokal China
+				\item Bis 2020 35 Satelliten
+			\end{itemize}
+		}
+		\note<3>{
+			Terrain		
+			\begin{itemize}
+				\item genaue Vermessung der Erde
+				\item Navigation, Geologie und Katastrophenschutz
+			\end{itemize}
+		}
+		\note<4>{
+			Optisch		
+			\begin{itemize}
+				\item Hochauflösende Kameras
+				\item Interpolation aktueller Entwicklung
+			\end{itemize}
+		}
+		\note<5>{
+			Andere		
+			\begin{itemize}
+				\item Internet und Telephon eher Nische
+				\item mit besserer Technologie
+				\item Fernsehen etc nur technische Verbesserungen
 			\end{itemize}
 		}
 	
 	\end{minipage} \quad
 	\begin{minipage}{.5\textwidth}
 	\begin{center}
-		\includegraphics[width=.7\linewidth]{mainengine}
+		\only<1>{
+		\includegraphics[width=.95\linewidth]{gps}}
+		\only<2>{
+		\includegraphics[width=.95\linewidth]{galileo}}
+		\only<3>{
+		\includegraphics[width=.95\linewidth]{erdbeobachter}}
+		\only<4>{
+		\includegraphics[width=.95\linewidth]{spionage}}
+		\only<5>{
+		\includegraphics[width=.95\linewidth]{internet}}
 	\end{center}	
 	
-	{\tiny Space Shuttle Main Engine
-		\\ Quelle: nasa.gov}
+	\only<1>{\tiny GPS Logo
+		\\ Quelle: wikipedia.org}
+	\only<1>{\tiny Galileo Logo
+		\\ Quelle: wikipedia.org}
+	\only<3>{\tiny Erdbeobachtungssatellit Sentinel
+		\\ Quelle: wikipedia.org}
+	\only<4>{\tiny Spionagesatellit Keyhole
+		\\ Quelle: wikipedia.org}
+	\only<5>{\tiny Satelliten-Internet
+		\\ Quelle: wieistmeineip.de}
 	\end{minipage}
 \end{frame}
+\section{Ferne Zukunft}
+\subsection{Antriebe der Zukunft}
 	
 \begin{frame}{\insertsection: \insertsubsection}
 	\begin{minipage}{.45\textwidth}	
@@ -301,7 +380,129 @@
 			\\ Quelle: jpt.nasa.gov}}
 	\end{minipage}
 \end{frame}
-
+%\begin{frame}{\insertsection: \insertsubsection}
+%	\begin{minipage}{.45\textwidth}
+%		
+%		\textbf{Vergleich: Spezifischer Impuls}
+%		\only<1>{
+%			\begin{equation*}
+%			\Delta v = v_{exh} \cdot \ln\left(\frac{M_0}{M_1}\right)
+%			\end{equation*}
+%		}
+%		
+%		\vspace{12pt}
+%		
+%		\note<1>{
+%			Spezifischer Impuls			
+%			\begin{itemize}
+%				\item Abgasgeschwindigkeit
+%				\item Maß für Effizienz eines Antriebs
+%			\end{itemize}
+%		}
+%	
+%	\end{minipage} \quad
+%	\begin{minipage}{.5\textwidth}
+%	\begin{center}
+%		\includegraphics[width=.7\linewidth]{mainengine}
+%	\end{center}	
+%	
+%	{\tiny Space Shuttle Main Engine
+%		\\ Quelle: nasa.gov}
+%	\end{minipage}
+%\end{frame}
+\subsection{FTL Antriebe}
+\begin{frame}{\insertsection: \insertsubsection}
+	\begin{minipage}{.45\textwidth}
+		
+		\textbf{Warp Antrieb}
+		\vspace{12pt}
+		\only<1,2>{
+		\begin{itemize}
+			\item Herkunft
+			\item Idee
+		\end{itemize}
+		}
+		\pause
+		\pause
+		\vspace{12pt}
+		\textbf{\\Wurmloch Generator}
+		\vspace{12pt}
+		\only<3,4>{
+		\begin{itemize}
+			\item Herkunft
+			\item Idee
+		\end{itemize}
+		}
+		\pause
+		\pause
+		\vspace{12pt}
+		\textbf{\\Andere Möglichkeiten}
+		\vspace{12pt}
+		\only<5>{
+		\begin{itemize}
+			\item Weltraum Routen
+			\item Generationen-Schiffe
+		\end{itemize}
+		}
+		
+		
+		\note<1,2>{
+			Warp Antrieb		
+			\begin{itemize}
+				\item Bedeutet "Verzerrung" der Raumzeit
+				\item Erste Erwähnung  bei Star Treck
+				\item Erste Idee "Flight of a Starling 1945 (von Chester S. Geier)
+				\item Verschiebt Raumzeit um Weg zu verkürzen
+				\item Nicht unbedingt entgegen Relativitätstheorie
+			\end{itemize}
+		}
+		\note<3,4>{
+			Wurmloch Generator		
+			\begin{itemize}
+				\item Öffnet eine Art Portal zu einer anderen Stelle des Universums.
+				\item Begriff "Wurmloch" geprägt von John Wheeler.
+				\item Bekannt durch die Serien "Stargate" und "Deep Space Nine".
+				\item Ermöglicht eine instantane Reise zum Ziel.
+				\item Widerspricht aktuellem Wissenschaftlichen Kenntnisstand.
+			\end{itemize}
+		}
+		\note<5>{
+			Alternativen		
+			\begin{itemize}
+				\item Weltraum Routen: Englisch Hyper-Lanes
+				\item Ermöglichen Fortbewegung auf fest definierten Routen
+				\item wenig Erklärung oder Erklärung über Warp-Antrieb
+				\item Generationen-Schiffe: Nicht wirklich FTL
+			\end{itemize}
+		}
+	
+	\end{minipage} \quad
+	\begin{minipage}{.5\textwidth}
+	\begin{center}
+		\only<1>{
+		\includegraphics[width=.95\linewidth]{Warpantrieb}}
+		\only<2>{
+		\includegraphics[width=.95\linewidth]{Warpfield}}
+		\only<3>{
+		\includegraphics[width=.95\linewidth]{Stargate}}
+		\only<4>{
+		\includegraphics[width=.95\linewidth]{Wormhole}}
+		\only<5>{
+		\includegraphics[width=.95\linewidth]{generationenschiff}}
+	\end{center}	
+	
+	\only<1>{\tiny Übergang zu Warpgeschwindigkeit
+		\\ Quelle: wikipedia.org}
+	\only<2>{\tiny Funktion des Warp-Feldes bei Star Treck
+		\\ Quelle: wikipedia.org}
+	\only<3>{\tiny Wurmlochgenerator
+		\\ Quelle: stargate.wikia.com}
+	\only<4>{\tiny Funktion eines Wurmlochs
+		\\ Quelle: wikipedia.org}
+	\only<4>{\tiny Generationen-Schiff
+		\\ Quelle: phoxim.de}
+	\end{minipage}
+\end{frame}
 \subsection{Weltraumkolonien}
 \begin{frame}{\insertsection: \insertsubsection}
 \begin{minipage}{.45\textwidth}

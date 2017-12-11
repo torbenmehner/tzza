@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Nahe Zukunft}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{NASA - Journey to Mars}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{ESA und Roscosmos - ExoMars}{7}{0}{1}
+\beamer@subsectionintoc {1}{3}{ESA - Kommerziell}{10}{0}{1}
+\beamer@subsectionintoc {1}{4}{SpaceX}{11}{0}{1}
+\beamer@subsectionintoc {1}{5}{CNSA}{13}{0}{1}
+\beamer@subsectionintoc {1}{6}{Satelliten-Entwicklung}{14}{0}{1}
+\beamer@sectionintoc {2}{Ferne Zukunft}{19}{0}{2}
+\beamer@subsectionintoc {2}{1}{Antriebe der Zukunft}{20}{0}{2}
+\beamer@subsectionintoc {2}{2}{FTL Antriebe}{22}{0}{2}
+\beamer@subsectionintoc {2}{3}{Weltraumkolonien}{27}{0}{2}
